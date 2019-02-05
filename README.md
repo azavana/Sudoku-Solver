@@ -1,6 +1,6 @@
 # Sudoku-Solver
 
-- Program which solves Sudoku (9x9) problem using backtracking method (Brute Force approach). 
+- Program which solves Sudoku (9x9) problem using backtracking method. 
 
 # Files included
 
