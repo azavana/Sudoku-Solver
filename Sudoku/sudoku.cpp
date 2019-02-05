@@ -78,7 +78,7 @@ void Sudoku::printGrid (int grid[S][S])
 }
 
 /* Backtracking part of the program*/
-bool Sudoku::solver (int grid[S][S])
+bool Sudoku::backtrack (int grid[S][S])
 {
 	int row, col;
 	if (!find_empty_location (grid,row,col))
