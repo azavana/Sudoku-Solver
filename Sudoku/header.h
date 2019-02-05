@@ -15,7 +15,7 @@ class Sudoku
 	public:
 		Sudoku();
 		void printGrid (int grid[S][S]);
-		bool solver (int grid[S][S]); // Sudoku solver
+		bool backtrack (int grid[S][S]); // Sudoku solver
 };
 
 #endif
