@@ -29,7 +29,7 @@ int main()
 	s->printGrid(grid_test);
 	cout << "\n\n[ SOLUTION ]\n\n";
 
-	if (s->solver(grid_test))
+	if (s->backtrack(grid_test))
 		s->printGrid(grid_test);	
 	else
 		cout << "\nNO SOLUTION" << endl;
